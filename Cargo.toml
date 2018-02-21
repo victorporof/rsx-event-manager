@@ -1,0 +1,15 @@
+[package]
+name = "rsx-event-manager"
+version = "0.1.0"
+authors = ["Victor Porof <victor.porof@gmail.com>"]
+
+[lib]
+name = "rsx_event_manager"
+
+[dependencies]
+enum-primitive-derive = "0.1.2"
+enum-str-derive = { git = "https://github.com/victorporof/rust-enum-str-derive.git" }
+num-traits = "0.1.2"
+rsx-shared = { git = "https://github.com/victorporof/rsx-shared.git", default-features = false }
+serde = "1.0.27"
+serde_derive = "1.0.27"
